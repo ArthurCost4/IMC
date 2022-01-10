@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Merriweather:wght@300&family=Nunito:wght@300&family=Roboto:ital,wght@0,700;1,100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Merriweather:wght@300&family=Nunito:wght@300&family=Roboto:ital,wght@0,700;1,100&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to bottom, #321F57, #633EAD, #6B43BA);
+    background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+    padding: 0 20px 30px 20px;
+    background: linear-gradient(45deg, #0A042B, #0C0430, #0F063D);
+    color: white;
+    border: 2px #f887ff solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 680px;
+}
+fieldset{
+    border: 2px #f887ff solid;
+    border-radius: 10px;
+    height: 300px;
+}
+hgroup > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.cabeçalho-h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.cabeçalho-h2 {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.input-box{
+    width: 2rem;
+    height: 3rem;
+    padding: 0 0.7rem;
+    margin-top: 2rem;
+}
+.input {
+    background-color: #3B2E8C;
+    color: azure;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    padding: 0 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.input-submit{
+    width: 70%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    background-color: #3B2E8C;
+    color: azure;
+    margin: 1rem 20px 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.input-submit:hover{
+    background-color: #4B35DB;
+}
+.input:hover {
+    background-color: #4B35DB;
+}
+.box-saida{
+    width: 22rem;
+    height: 150px;
+    background-color: #2E2075;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* para remover as setas do input=number */
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
